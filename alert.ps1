@@ -1,1 +1,1 @@
-powershell -WindowStyle hidden -Command "& {[System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms'); [System.Windows.Forms.MessageBox]::Show('THIS IS A TEST TO SHOW POWERSHELL SCRIPT EXECUTION','WARNING')}"
+Add-Type -AssemblyName PresentationFramework; [System.Windows.MessageBox]::Show('THIS IS A TEST TO SHOW POWERSHELL SCRIPT EXECUTION','WARNING')
